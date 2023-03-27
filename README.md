@@ -22,6 +22,10 @@ Dentro de la carpeta Fase3 se encuentran las practicas por cada tema a entregar 
   - A destacar:
     - Se incluyen los ficheros js de la compilación del ejercicio.
 
+### JSON
+ - Dentro de la carpeta JSON se encuentra el ejercicio del tema 3. JSON. La carpeta consta de:
+    - Un fichero json dónde se recoge la lista de la compra llamado: lista_de_la_compra.json
+    - Un fichero xml dónde se pone un ejemplo de un supermercado en concreto llamado: supermercado.xml
 
 ## Authors
  - [@PandoraDrige](https://github.com/PandoraDrige)

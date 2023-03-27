@@ -1,0 +1,48 @@
+<supermercados>
+   <supermercado nombre = 'Hipercor'>
+      <direccion>C. J, 290, 42005 Soria</direccion>
+      <geolocalizacion>
+         <latitud>41.76800990983603</latitud>
+         <longitud>-2.475083275752342</longitud>
+      </geolocalizacion>
+      <productos>
+         <producto nombre = 'Leche' oferta = 'true' habitual='false'>
+            <periodo_vigencia>
+               <inicio>2023-03-21</inicio>
+               <fin>2023-03-27</fin>
+            </periodo_vigencia>
+            <cantidad>1</cantidad>
+            <unidad_medida>litro</unidad_medida>
+            <precio>1.80</precio>
+            <adquirido>false</adquirido>
+         </producto>
+         <producto nombre = 'Pan' oferta = 'true' habitual='true'>
+            <periodo_vigencia></periodo_vigencia>
+            <cantidad>1</cantidad>
+            <unidad_medida>unidad</unidad_medida>
+            <precio>1.05</precio>
+            <adquirido>false</adquirido>
+         </producto>
+         <producto nombre = 'Huevos' oferta = 'false' habitual='false'>
+            <periodo_vigencia>
+               <inicio>2023-03-21</inicio>
+               <fin>2023-03-26</fin>
+            </periodo_vigencia>
+            <cantidad>12</cantidad>
+            <unidad_medida>unidad</unidad_medida>
+            <precio>1.95</precio>
+            <adquirido>false</adquirido>
+         </producto>
+         <producto nombre = 'Atun' oferta = 'false' habitual='false'>
+            <periodo_vigencia>
+               <inicio>2023-03-21</inicio>
+               <fin>2024-03-24</fin>
+            </periodo_vigencia>
+            <cantidad>6</cantidad>
+            <unidad_medida>latas</unidad_medida>
+            <precio>1.95</precio>
+            <adquirido>false</adquirido>
+         </producto>
+      <productos>
+   </supermercado>
+</supermercados>

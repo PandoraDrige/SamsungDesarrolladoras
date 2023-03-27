@@ -1,0 +1,164 @@
+{
+    "productos": [      
+      {
+         "nombre": "Leche",
+         "cantidad": 1,
+         "habitual": false,
+         "adquirido": false,
+         "supermercados": [
+            {
+               "nombre":"Hipercor",
+               "oferta": true,
+               "periodo_vigencia": {
+                  "inicio": "2023-03-21",
+                  "fin": "2023-03-27"
+               },
+               "unidad_medida": "litro",
+               "precio": 1.20
+            },
+            {
+               "nombre":"Carrefour",
+               "oferta": false,
+               "periodo_vigencia": {
+                  "inicio": "2023-03-27",
+                  "fin": "2023-03-31"
+               },
+               "unidad_medida": "litro",
+               "precio": 1.80
+            }
+         ]
+      },
+      {
+         "nombre": "Pan",
+         "cantidad": 1,
+         "habitual": true,
+         "adquirido": true,
+         "supermercados": [
+            {
+               "nombre":"Dia",
+               "oferta": false,
+               "periodo_vigencia": null,
+               "unidad_medida": "unidad",
+               "precio": 1.60
+            },
+            {
+               "nombre":"Alimerka",
+               "oferta": false,
+               "periodo_vigencia": null,
+               "unidad_medida": "unidad",
+               "precio": 0.95
+            },
+            {
+               "nombre":"Hipercor",
+               "oferta": false,
+               "periodo_vigencia": null,
+               "unidad_medida": "unidad",
+               "precio": 1.05
+            },
+            {
+               "nombre":"Carrefour",
+               "oferta": false,
+               "periodo_vigencia": null,
+               "unidad_medida": "unidad",
+               "precio": 0.95
+            }
+         ]
+      },
+      {
+         "nombre": "Huevos",
+         "cantidad": 12,
+         "habitual": false,
+         "adquirido": true,
+         "supermercados": [
+            {
+               "nombre":"Dia",
+               "oferta": false,
+               "periodo_vigencia": {
+                  "inicio": "2023-03-21",
+                  "fin": "2023-03-24"
+               },
+               "unidad_medida": "unidad",
+               "precio": 1.80
+            },
+            {
+               "nombre":"Alimerka",
+               "oferta": true,
+               "periodo_vigencia": {
+                  "inicio": "2023-03-21",
+                  "fin": "2023-03-23"
+               },
+               "unidad_medida": "unidad",
+               "precio": 1.00
+            },
+            {
+               "nombre":"Hipercor",
+               "oferta": false,
+               "periodo_vigencia": {
+                  "inicio": "2023-03-20",
+                  "fin": "2023-03-24"
+               },
+               "unidad_medida": "unidad",
+               "precio": 1.95
+            },
+            {
+               "nombre":"Carrefour",
+               "oferta": false,
+               "periodo_vigencia": {
+                  "inicio": "2023-03-21",
+                  "fin": "2023-03-25"
+               },
+               "unidad_medida": "unidad",
+               "precio": 1.45
+            }
+         ]
+      },
+      {
+         "nombre": "Atún",
+         "cantidad": 6,
+         "habitual": false,
+         "adquirido": true,
+         "supermercados": [
+            {
+               "nombre":"Dia",
+               "oferta": false,
+               "periodo_vigencia": {
+                  "inicio": "2023-03-21",
+                  "fin": "2024-03-24"
+               },
+               "unidad_medida": "latas",
+               "precio": 1.80
+            },
+            {
+               "nombre":"Alimerka",
+               "oferta": true,
+               "periodo_vigencia": {
+                  "inicio": "2023-03-21",
+                  "fin": "2024-03-24"
+               },
+               "unidad_medida": "latas",
+               "precio": 1.00
+            },
+            {
+               "nombre":"Hipercor",
+               "oferta": false,
+               "periodo_vigencia": {
+                  "inicio": "2023-03-21",
+                  "fin": "2024-03-24"
+               },
+               "unidad_medida": "latas",
+               "precio": 1.95
+            },
+            {
+               "nombre":"Carrefour",
+               "oferta": false,
+               "periodo_vigencia": {
+                  "inicio": "2023-03-21",
+                  "fin": "2024-03-24"
+               },
+               "unidad_medida": "latas",
+               "precio": 1.45
+            }
+         ]
+      }
+    ]
+}
