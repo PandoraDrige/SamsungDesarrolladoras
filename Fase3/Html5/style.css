@@ -1,0 +1,108 @@
+body {
+    background-color: #B5D5C5 !important;
+}
+h3{
+    color: #7b6183 !important;
+    text-align: center;
+}
+
+#formarError{
+    color: red;
+    font-weight: bold;
+    text-align: center;
+}
+video {
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+    pointer-events: none;
+}
+
+.videoPlaceHolder {
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+    background-color: black;
+    opacity: 0.5;
+    position: relative;
+}
+.videoPlaceHolder > span{
+    color:#B08BBB;
+    font-weight: bold;
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-shadow: 2px 2px 4px rgba(88, 70, 94, 1);
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+}
+
+.loading {
+    z-index: 1;
+    position: absolute;
+    left: 50%;
+    top: 42%;
+    color: white;
+}
+
+.Controlers {
+    margin: 0 auto;
+    text-align: center;
+    background-color: #ECA869;
+    position: relative;
+    top: -6px;
+    border-radius: 0px 0px 10px 10px;
+    height: 42px;
+}
+
+i {
+    font-weight: bold;
+    font-size: 24px;
+    color: #B08BBB;
+    border: none;
+}
+
+i::before {
+    vertical-align: text-top !important;
+}
+
+button {
+    border: none !important;
+    padding-bottom: 0 !important;
+    border-radius: 0px !important;
+}
+
+button:disabled {
+    background-color: white !important;
+    opacity: 0.5 !important;
+    color: grey !important;
+    cursor:not-allowed !important;
+}
+button:nth-of-type(1){    
+    margin: 0px 0px !important;
+    border-radius: 0px 0px 0px 10px !important;
+}
+button:nth-of-type(-n+3) {
+    float: left;
+}
+
+button:nth-last-of-type(-n+2) {    
+    float: right;
+}
+button:nth-of-type(4){    
+    margin: 0px 0px !important;
+    border-radius: 0px 0px 10px 0px !important;
+}
+
+button:hover{
+    background-color: #d4975f !important;
+    opacity: 0.5 !important;
+}
+button:hover > i{
+   color: black !important
+}
+
+.inputFile {
+    width: 60%;
+    margin: 0 auto;
+}
