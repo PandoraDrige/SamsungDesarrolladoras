@@ -40,5 +40,15 @@ Dentro de la carpeta Fase3 se encuentran las practicas por cada tema a entregar 
     - Un fichero sql de la creación de la tabla usuarios.
     - Un fichero sql con la insercción de un registro en la tabla Usuarios.
 
+### PHP
+ - Dentro de la carpeta PHP se encuentra el ejercicio del tema 6. PHP. La carpeta consta de:
+    - El directorio dentro de la carpeta htdocs de xampp dónde se creo.
+    - Un fichero .env para guardar todos los datos sensibles.
+    - Un fichero php dónde se guarda la lógica del envío del formulario a la base de datos.
+    - Un fichero js dónde se realizan validaciones de los campos del formulario.
+    - Dos ficheros .html uno dónde se encuentra el formulario, index.html, y otro para indicar que todo ha ido ok, success.html.
+    - Un fichero css para dar estilo al formulario.
+    - Un directorio para guardar imagenes de validación.
+
 ## Authors
  - [@PandoraDrige](https://github.com/PandoraDrige)
