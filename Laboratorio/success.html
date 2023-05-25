@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Success!!</title>
+</head>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>New account form</title>
+</head>
+
+<body>
+    <div class="container mainForm mt-5 mb-5 p-4">
+        <h2 class="text-center">¡La cuenta ha sido registrada correctamente!</h2>
+
+        <button class="btn btn-primary mt-4"
+            onclick="window.open(window.location.href.replace('success.html', 'index.html'))">Crear otra cuenta</button>
+        <button id="seeUsers" class="btn btn-primary mt-4" onclick="getUsersData(); tableContainer.hidden = false; seeUsers.disabled=true">Ver
+            usuarios</button>
+        <div id="tableContainer" class="container" hidden>
+            <div class="tableHeader row mt-5 text-center">
+                <h3 >Usuarios registrados en la base de datos</h3>
+            </div> 
+            <div class="row justify-content-end">
+                <button id="refreshButton" class=" col-4 btn btn-primary " onclick="getUsersData()">Refrescar datos</button>
+            </div>           
+            <div id="userTable" class="row" hidden></div>
+        </div>
+    </div>
+
+</body>
+
+</html>

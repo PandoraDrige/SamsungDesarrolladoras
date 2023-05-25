@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>New account form</title>
+</head>
+
+<body>
+    <div class="container mainForm mt-5 mb-5 p-4">
+        <h2>Create Account</h2>
+
+        <form action="form.php" method="POST" id="registerForm">
+            <div class="col-12 mt-4">
+                <label for="name" class="fieldName mb-1">Nombre </label>
+                <input id="name" type="text" class="form-control" name="name" required>
+            </div>
+            <div class="col-12 mt-4">
+                <label for="surname" class="fieldName mb-1">Primer apellido </label>
+                <input id="surname" type="text" class="form-control" name="surname" required>
+            </div>
+            <div class="col-12 mt-4">
+                <label for="secondSurname" class="fieldName mb-1">Segundo apellido </label>
+                <input id="secondSurname" type="text" class="form-control" name="secondSurname" required>
+            </div>
+            <div class="col-12 mt-3">
+                <label for="email" class="fieldName mb-1">Email </label>
+                <input id="email" type="email" class="form-control" name="email" required>
+            </div>
+            <div class="col-12 mt-4">
+                <label for="accountName" class="fieldName mb-1">Nombre usuario </label>
+                <input id="accountName" type="text" class="form-control" name="accountName" required>
+            </div>
+            <div class="col-12 mt-3">
+                <label for="password" class="fieldName mb-1">Contraseña </label>
+                <input id="password" type="password" class="form-control" name="password" minlength="4" maxlength="8" required>
+            </div>
+            <span class="errorLabel" class="col-12" hidden id="errorLabel"></span>
+            <button class="btn btn-primary mt-4"
+                onclick="sendForm(name.value,surname.value,secondSurname.value,accountName.value,email.value,password.value)">Enviar</button>
+        </form>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,65 @@
+body{
+    background-color: #242933 !important;
+    height: 100%;
+}
+body > *{
+    color: #A5B3D8;
+}
+.mainForm{
+    background-color: #2F3644;
+    border: 1px solid #3B4156;
+    border-radius: 5px;
+    max-width: 35% !important;
+}
+.btn{
+    width: 100% !important;
+    background-color: #6C63FF !important;
+    color: white !important;
+    border: 2px solid #090916 !important;
+    border-radius: 5px !important;
+}
+#refreshButton{
+    width: auto !important;
+    background-color: #6C63FF !important;
+    float: right;
+}
+input{
+    border-radius: 5px !important;
+}
+.errorLabel{
+    color: #DF5756;
+}
+.error{
+    border: 2px solid #DF5756 !important;
+}
+.ok{
+    border: 2px solid #4FD165 !important;
+}
+
+img{    
+    width: 19px;
+    float: right;
+    margin-right: 9px;
+    margin-top: -29px;
+}
+.errorIcon{
+    margin-top: -54px !important;
+
+}
+
+table{
+    border-radius: 5px !important;
+}
+th{
+    color: #A7A4FF;
+}
+td{
+color: #D4D9E8;
+}
+tr:nth-child(odd){
+    background-color: #242933;
+    color: #D4D9E8 !important;
+}
+tbody,tr{
+    border-color: #3B4156 !important;
+}

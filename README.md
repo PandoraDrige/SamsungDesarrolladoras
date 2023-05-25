@@ -13,7 +13,7 @@ Este directorio contiene los siguientes ficheros y carpeta:
  - Aparte de estilos propios codificados en el fichero style.css se ha hecho uso de la librería bootstrap 5.3.0.
 
 ## Fase3
-Dentro de la carpeta Fase3 se encuentran las practicas por cada tema a entregar así como el laboratorio final.
+Dentro de la carpeta Fase3 se encuentran las practicas por cada tema a entregar.
 
 ### Typescript
  - Dentro de la carpeta Typescript se encuentra el ejercicio del tema 2. Typescript. La carpeta consta de:
@@ -49,6 +49,15 @@ Dentro de la carpeta Fase3 se encuentran las practicas por cada tema a entregar 
     - Dos ficheros .html uno dónde se encuentra el formulario, index.html, y otro para indicar que todo ha ido ok, success.html.
     - Un fichero css para dar estilo al formulario.
     - Un directorio para guardar imagenes de validación.
+    
+## Laboratorio
+Dentro de la carpeta laboratorio se encuentra la práctica final del curso.
+- index.html: contiene el código html del formulario que debe rellenarse para dar de alta un usuario.
+- form.php: contiene el código del back que valida y guarda los datos del formulario.
+- success.html: contiene el código html de la página a la cual se redirige una vez el formulario ha sido completado con exito.
+- users_query.php: código php para la consulta de usuarios mediante un botón en success.html.
+- index.js: contiene el código javascript necesario para el index.html y succes.html.
+- style.css: contiene los estilos de ambas páginas html.
 
 ## Authors
  - [@PandoraDrige](https://github.com/PandoraDrige)
